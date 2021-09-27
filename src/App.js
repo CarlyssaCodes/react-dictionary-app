@@ -8,7 +8,7 @@ export default function App() {
         <header className="App-header" />
         <main>
           <h1>Dictionary App</h1>
-          <Dictionary />
+          <Dictionary defaultKeyword="determination" />
         </main>
         <footer className="App-footer">
           <a href="https://github.com/CarlyssaCodes/react-weather-app">
