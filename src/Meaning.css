@@ -1,11 +1,19 @@
 .Meaning h3 {
+  color: #f9f9f9;
   font-size: 25px;
   line-height: 1.5;
   font-weight: bold;
 }
 
 .Meaning .example {
+  color: #ebcbae;
   opacity: 0.7;
   font-style: italic;
   margin-top: 10px;
+}
+
+.Meaning .definition span {
+  color: #a6e4e7;
+  font-weight: bold;
+  margin-right: 5px;
 }

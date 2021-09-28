@@ -9,3 +9,10 @@
   font-size: 12px;
   line-height: 1px;
 }
+
+.Synonyms span {
+  font-size: 12px;
+  margin-right: 3px;
+  color: #a6e4e7;
+  font-weight: bold;
+}
