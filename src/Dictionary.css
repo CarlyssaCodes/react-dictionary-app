@@ -1,7 +1,7 @@
 h1 {
   font-family: "Playfair Display SC", serif;
   font-size: 50px;
-  color: #ebcbae;
+  color: #d1c2b4;
   font-weight: bold;
 }
 
@@ -23,16 +23,45 @@ h1 {
 }
 
 .Dictionary input {
-  width: 100%;
-  padding: 12px 8px;
-  border: 1px solid #ddd;
-  border-radius: 16px;
+  width: 80%;
+  padding-top: 10px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  border: none;
+  border-radius: 25px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: #f9f9f9;
   color: #807575;
   font-family: "Poppins", sans-serif;
+  font-weight: bold;
 }
 
 .Dictionary .hint {
   font-size: 11px;
   margin-top: 5px;
   font-family: "Montserrat", sans-serif;
+}
+
+.Dictionary .submit-button {
+  background-color: white;
+  border: none;
+  border-radius: 25px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  left: 1px;
+  color: #807575;
+  background-color: #f9f9f9;
+  font-weight: 800;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+  padding-top: 10px;
+  padding-bottom: 12px;
+  font-family: "Poppins", sans-serif;
+}
+
+.Dictionary .submit-button:hover {
+  background-color: #d1c2b4;
+  color: #8f8787;
+  font-family: "Poppins", sans-serif;
 }
